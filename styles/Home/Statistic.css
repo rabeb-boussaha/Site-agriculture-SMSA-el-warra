@@ -1,0 +1,23 @@
+.big-text {
+  font-size: 210px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin: 0 auto;
+  text-align: center;
+  color: transparent;
+  background: url(../../public/images/Home/text-bg-1.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 600;
+}
+.statistic {
+  padding: 10% 10% 10%;
+}
+.counter-inner {
+  border: 2px solid rgba(44, 44, 44, 0.1);
+  padding: 1% 2% 2%;
+}
+.staticfied {
+  padding: 8% 0% 0%;
+}

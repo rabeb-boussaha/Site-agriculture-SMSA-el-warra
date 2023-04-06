@@ -1,0 +1,62 @@
+.mainLayout {
+  min-height: calc(100vh - 44px);
+
+  background: linear-gradient(0deg, #ffffff, #ffffff) !important;
+}
+.headerContainer {
+  color: #212940;
+  height: 80px !important;
+  border-bottom: 2px solid #2129401a;
+  position: absolute;
+  margin-top: -2%;
+  margin-left: 23%;
+  z-index: 1;
+}
+
+.headerBorderRight:hover {
+  border-bottom: 9px solid #eece38 !important;
+}
+.headerBorderRight:active {
+  border-bottom: 9px solid #eece38 !important;
+}
+.headerBorderRight {
+  border-right: 0.8px solid rgba(0, 0, 0, 0.1);
+}
+
+.ContainerFooter {
+  border: 0.8px solid rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+.Mentions {
+  color: #212940 !important;
+
+  opacity: 50% !important;
+}
+.headerContainer a {
+  text-decoration: none;
+  font-size: 18px;
+}
+.icon {
+  background-color: #eece38;
+  border-radius: 50%;
+  height: 50px;
+  width: 40px;
+  color: #2c2c2c;
+  flex: 0 0 50px;
+}
+
+.sous-street {
+  color: #767676;
+  margin-left: 20%;
+}
+.pre-header {
+  padding: 4% 0% 5%;
+}
+.social_footer_ul {
+  color: #eece38;
+}
+.logoHeader {
+  width: 60%;
+  height: 10%;
+  border-radius: 100%;
+}

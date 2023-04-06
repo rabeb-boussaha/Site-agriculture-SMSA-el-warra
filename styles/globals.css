@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+body {
+  overflow-x: hidden !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.pointer {
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+  display: block;
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #dfe5ea;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+.h100 {
+  height: 100%;
+}
+
+/* =============== Font Sizes ====================== */
+.f13 {
+  font-size: 13px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f15 {
+  font-size: 15px;
+}
+.f18 {
+  font-size: 18px !important;
+}
+.f20 {
+  font-size: 20px !important;
+}
+.f24 {
+  font-size: 24px;
+}
+.f25 {
+  font-size: 25px;
+}
+.f30 {
+  font-size: 30px;
+}
+.f36 {
+  font-size: 36px;
+}
+.f42 {
+  font-size: 42px;
+}
+.f45 {
+  font-size: 45px;
+}
+.f55 {
+  font-size: 55px;
+}
+.f64 {
+  font-size: 64px;
+}
+/* =============== Font Sizes -mobile ====================== */
+@media only screen and (max-width: 992px) {
+  .f13m {
+    font-size: 13px;
+  }
+
+  .f14m {
+    font-size: 14px;
+  }
+  .f20m {
+    font-size: 20px;
+  }
+  .f24m {
+    font-size: 24px;
+  }
+  .f36m {
+    font-size: 36px;
+  }
+  .f55m {
+    font-size: 55px;
+  }
+  .f64m {
+    font-size: 64px;
+  }
+}
+/* =============== Font weights ====================== */
+.light {
+  font-weight: 300;
+}
+.Regular {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500 !important;
+}
+.bold {
+  font-weight: 600;
+}
+.bolder {
+  font-weight: 700;
+}
+
+/* =============== Font weights ====================== */
+.alignH {
+  display: flex;
+  align-items: center;
+}
+.alignC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =============== Widths ====================== */
+.w10 {
+  width: 10%;
+}
+.w20 {
+  width: 20%;
+}
+.w25 {
+  width: 25%;
+}
+.w30 {
+  width: 30%;
+}
+.w34 {
+  width: 34%;
+}
+.w40 {
+  width: 40%;
+}
+.w45 {
+  width: 45%;
+}
+
+.w50 {
+  width: 50%;
+}
+.w60 {
+  width: 60%;
+}
+
+.w70 {
+  width: 70%;
+}
+.w80 {
+  width: 80%;
+}
+.w85 {
+  width: 85%;
+}
+.w90 {
+  width: 90%;
+}
+.w100 {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .wm10 {
+    width: 10%;
+  }
+  .wm20 {
+    width: 20%;
+  }
+
+  .wm30 {
+    width: 30%;
+  }
+
+  .wm40 {
+    width: 40%;
+  }
+
+  .wm50 {
+    width: 50%;
+  }
+  .wm60 {
+    width: 60%;
+  }
+
+  .wm70 {
+    width: 70%;
+  }
+  .wm80 {
+    width: 80%;
+  }
+  .wm90 {
+    width: 90%;
+  }
+  .wm100 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .wm10 {
+    width: 10%;
+  }
+  .wm20 {
+    width: 20%;
+  }
+  .wm25 {
+    width: 25%;
+  }
+  .wm30 {
+    width: 30%;
+  }
+  .wm40 {
+    width: 40%;
+  }
+
+  .wm50 {
+    width: 50%;
+  }
+  .wm60 {
+    width: 60%;
+  }
+
+  .wm70 {
+    width: 70%;
+  }
+  .wm80 {
+    width: 80%;
+  }
+  .wm90 {
+    width: 90%;
+  }
+  .wm100 {
+    width: 100%;
+  }
+  /* =============== Margin ====================== */
+
+  .Mmt0 {
+    margin-top: 0px;
+  }
+  .Mmt30 {
+    margin-top: 30px;
+  }
+  .Mmb30 {
+    margin-bottom: 30px;
+  }
+  .Mmt50 {
+    margin-top: 50px;
+  }
+  .Mmt80 {
+    margin-top: 80px;
+  }
+  .Mmt100 {
+    margin-top: 100px;
+  }
+  .Mmr30 {
+    margin-right: 30%;
+  }
+}
+.gap2 {
+  gap: 20px !important;
+}
+.gap15 {
+  gap: 15px !important;
+}
+.gap30 {
+  gap: 30px !important;
+}
+
+/* Responsive layout  */
+
+/* =============== Margin ====================== */
+.mt20 {
+  margin-top: 20px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt25 {
+  margin-bottom: 25px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.mt50 {
+  margin-top: 50px;
+}
+.mt80 {
+  margin-top: 80px;
+}
+.mt100 {
+  margin-top: 100px;
+}
+.mr30 {
+  margin-right: 30%;
+}
+
+@media screen and (max-width: 992px) {
+  .w-100-m {
+    width: 100%;
+  }
+  /* =============== Margin ====================== */
+  .Mmt20 {
+    margin-top: 20px;
+  }
+  .Mmt30 {
+    margin-top: 30px;
+  }
+  .Mmt35 {
+    margin-top: 35px;
+  }
+  .Mmt25 {
+    margin-bottom: 25px;
+  }
+  .Mmb30 {
+    margin-bottom: 30px;
+  }
+  .Mmb50 {
+    margin-bottom: 50px;
+  }
+  .Mmt50 {
+    margin-top: 50px;
+  }
+  .Mmt80 {
+    margin-top: 80px;
+  }
+  .mmt100 {
+    margin-top: 100px;
+  }
+  .Mmr30 {
+    margin-right: 30%;
+  }
+}
+
+.p-dropdown:not(.p-disabled).p-focus,
+.p-dropdown:hover,
+.p-inputtext:enabled:focus,
+.p-accordion-header-link {
+  box-shadow: none !important;
+  border: 1px solid #00000080 !important;
+  border-bottom: 2px solid #00000080 !important ;
+}
+.br17 {
+  border-radius: 17px !important;
+}
+
+/* =============== Import CSS ====================== */
+@import url(../styles/Layout.css);
+@import url(../styles/Home/Moder.css);
+@import url(../styles/main.css);
+@import url(../styles/Home/AboutHome.css);
+@import url(../styles/Home/ServicesHome.css);
+@import url(../styles/Home/Statistic.css);
+@import url(../styles/Home/OfresHome.css);
+@import url(../styles/Contact.css);
+@import url(../styles/Home/Contacts.css);
+@import url(../styles//Home/Message.css);
+@import url(../styles/CustomButton.css);
+@import url(../styles/About/SectionOne.css);
+@import url(../styles/About/sectionTwo.css);
+@import url(../styles/About/Section3.css);

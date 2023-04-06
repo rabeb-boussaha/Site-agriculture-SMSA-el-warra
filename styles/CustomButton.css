@@ -1,0 +1,11 @@
+.customButton {
+  border-radius: 8px;
+  border: none;
+}
+.customButton.orange {
+  background: radial-gradient(
+    223.33% 223.33% at 50% 48.89%,
+    #ff7006 0%,
+    #ffb703 97.19%
+  ) !important;
+}

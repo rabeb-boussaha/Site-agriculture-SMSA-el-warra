@@ -1,0 +1,72 @@
+.content-bg-offer {
+  font-family: "Handlee", cursive;
+  color: #ffffff;
+  font-size: 90px;
+  line-height: 1;
+  position: absolute;
+  top: 30% !important;
+}
+.experience-box {
+  position: absolute;
+  right: -40%;
+  bottom: 60%;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  background-color: #eece38;
+  padding: 15px 40px;
+  color: #2c2c2c;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.texte-ofres {
+  color: #767676;
+}
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

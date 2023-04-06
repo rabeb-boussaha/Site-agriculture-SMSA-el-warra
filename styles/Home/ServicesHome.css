@@ -1,0 +1,30 @@
+.ServicesHome {
+  padding-top: 6%;
+  position: relative;
+}
+
+.service {
+  position: relative;
+  top: 7px !important;
+}
+.Bottom {
+  position: absolute;
+  top: 100% !important;
+}
+.card {
+  background-color: #181712 !important;
+  height: 50% !important;
+  cursor: pointer;
+}
+.card:hover {
+  border-bottom: 5px solid #eece38 !important;
+}
+.card:active {
+  border-bottom: 5px solid #eece38 !important;
+}
+.texte:hover {
+  color: #eece38 !important;
+}
+.text:active {
+  color: #eece38 !important;
+}
