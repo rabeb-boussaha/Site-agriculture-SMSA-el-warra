@@ -21,9 +21,11 @@ const Header = () => {
           <div className="f13 nav  bold  pointer  headerBorderRight h100 px-4 alignC">
             SERVICES
           </div>
-          <div className="f13 nav  pointer bold  headerBorderRight h100 px-4 alignC ">
-            PRODUCTS
-          </div>
+          <Link href="/products">
+            <div className="f13 nav  pointer bold  headerBorderRight h100 px-4 alignC ">
+              PRODUCTS
+            </div>
+          </Link>
         </div>
         <div className="d-flex h100">
           <div className="bold f13 pointer nav  headerBorderRight h100 px-4 alignC ">

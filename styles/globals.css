@@ -370,6 +370,18 @@ body::-webkit-scrollbar-thumb {
 .br17 {
   border-radius: 17px !important;
 }
+.p-slider .p-slider-range {
+  background: #eece38;
+}
+.p-slider .p-slider-handle {
+  height: 1.143rem;
+  width: 1.143rem;
+  background: #ffffff;
+  border: 2px solid #eece38;
+  border-radius: 50%;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+    box-shadow 0.2s;
+}
 
 /* =============== Import CSS ====================== */
 @import url(../styles/Layout.css);
@@ -386,3 +398,6 @@ body::-webkit-scrollbar-thumb {
 @import url(../styles/About/SectionOne.css);
 @import url(../styles/About/sectionTwo.css);
 @import url(../styles/About/Section3.css);
+@import url(../styles//Products/TwoSection.css);
+@import url(../styles/Products/SectionThree.css);
+@import url(../styles/Products/Projects.css);
