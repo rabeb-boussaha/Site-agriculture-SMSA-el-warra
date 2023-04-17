@@ -1,7 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Wheat from "../Commun/Icons/Wheat";
-import produit from "../../public/images/Products/produit.jpg";
+import produit from "../../public/images/Products/6661.jpg";
+import allaf from "../../public/images/Products/DSC_11.jpg";
+import amande from "../../public/images/Products/amande.jpg";
+import olive from "../../public/images/Products/olive.jpg";
 
 function Projects() {
   return (
@@ -25,40 +28,40 @@ function Projects() {
               className="w100 produit"
             />
             <div className="middle">
-              <div className="text">John Doe</div>
+              <div className="texts">John Doe</div>
             </div>
           </div>
           <div className="w20 alignC produite ">
             <Image
-              src={produit}
+              src={allaf}
               alt="produit"
               quality={100}
               className="w100 produit"
             />
             <div className="middle">
-              <div className="text">John Doe</div>
+              <div className="texts">John Doe</div>
             </div>
           </div>
           <div className="w20 alignC produite">
             <Image
-              src={produit}
+              src={amande}
               alt="produit"
               quality={100}
               className="w100 produit"
             />
             <div className="middle">
-              <div className="text">John Doe</div>
+              <div className="texts">John Doe</div>
             </div>
           </div>
           <div className="w20 alignC produite">
             <Image
-              src={produit}
+              src={olive}
               alt="produit"
               quality={100}
               className="w100 produit"
             />
             <div className="middle">
-              <div className="text">John Doe</div>
+              <div className="texts">John Doe</div>
             </div>
           </div>
         </div>
