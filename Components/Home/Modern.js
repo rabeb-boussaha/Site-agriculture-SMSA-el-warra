@@ -29,9 +29,9 @@ function Modern() {
             </svg>
           </div>
           <div className="text">
-            <h5>Modern Agriculture Equipement</h5>
+            <h5>Des produits biologiques et frais</h5>
             <span className="sous-text lh-lg w70">
-              Sit amet consectetur adipiscing elit sed eiusmod tempor
+              100 % naturelles, sans substances chimiques
             </span>
           </div>
         </div>
@@ -54,9 +54,9 @@ function Modern() {
             </svg>
           </div>
           <div className="text">
-            <h5>Organic and Fresh Harvest of Wheat</h5>
+            <h5>Des fermiers bien formés et engagés </h5>
             <span className="sous-text lh-lg w70">
-              Sit amet consectetur adipiscing elit sed eiusmod tempor
+              Unis par leur passion envers la terre et la nature
             </span>
           </div>
         </div>
@@ -86,9 +86,10 @@ function Modern() {
             </svg>
           </div>
           <div className="text">
-            <h5>Lot’s Of Professional & Expert Farmers</h5>
-            <span className="sous-text lh-lg ">
-              Sit amet consectetur adipiscing elit sed eiusmod tempor
+            <h5>Une agriculture inclusive et solidaire </h5>
+            <span className="sous-text lh-lg">
+              Femmes, Hommes et Jeunes, tout le monde participe à la création de
+              richesse
             </span>
           </div>
         </div>

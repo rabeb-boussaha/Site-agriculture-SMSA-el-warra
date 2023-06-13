@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Seo />
+
       <Component {...pageProps} />
     </Layout>
   );

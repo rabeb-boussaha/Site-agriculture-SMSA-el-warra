@@ -1,17 +1,20 @@
 import React from "react";
 import SectionOne from "../Components/About/SectionOne";
 import SectionTwo from "../Components/About/SectionTwo";
-import Section3 from "../Components/About/Section3";
+import TunisieJob from "../Components/Home/TunisieJob";
 import Statistic from "../Components/Home/Statistic";
 import Footers from "../Components/Commun/Footers";
+import Richesse from "../Components/About/Richesse";
 
 export default function About() {
   return (
     <div className="landingPage">
       <SectionOne />
       <SectionTwo />
-      <Section3 />
+      <Richesse />
+
       <Statistic />
+      <TunisieJob />
       <Footers />
     </div>
   );

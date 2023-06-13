@@ -6,31 +6,51 @@ const Header = () => {
     <div className="w100  header">
       <div className="bg-light headerContainer d-flex  justify-content-center  alignC  ">
         <div className="d-flex align-items-center h100">
-          <Link href="/">
-            {" "}
-            <div className=" f13 nav pointer bold  headerBorderRight h100 px-4 alignC  ">
-              HOME
-            </div>
-          </Link>
-          <Link href="/about">
-            {" "}
-            <div className="f13 nav   pointer bold  headerBorderRight h100 px-4 alignC ">
-              ABOUT
-            </div>
-          </Link>
+          {" "}
+          <div className=" f13 nav pointer bold  headerBorderRight h100 px-4 alignC  ">
+            <Link href="/">ACCUEIL</Link>
+          </div>{" "}
+          <div className="f13 nav   pointer bold  headerBorderRight h100 px-4 alignC ">
+            <Link href="/about">A PROPOS</Link>
+          </div>
           <div className="f13 nav  bold  pointer  headerBorderRight h100 px-4 alignC">
-            SERVICES
+            <Link href="/products">NOTRE APPROCHE BIOLOGIQUE</Link>
           </div>
-          <Link href="/products">
-            <div className="f13 nav  pointer bold  headerBorderRight h100 px-4 alignC ">
-              PRODUCTS
-            </div>
-          </Link>
+          <div class="">
+            <ul class="navigation">
+              <li>
+                <p className=" f13   bold  pointer  headerBorderRight h100 px-4 alignC ">
+                  <Link href="">NOS PRODUITS BIOLOGIQUES</Link>
+                </p>
+                <ul>
+                  <li>
+                    <p
+                      className=" f13   bold  pointer  headerBorderRight h100 px-4 alignC  "
+                      title="olive">
+                      <Link href="/huile">HUILE D&apos;OLIVE BIOLOGIQUE</Link>
+                    </p>
+                  </li>
+                  <li>
+                    <p
+                      className="f13   bold  pointer  headerBorderRight h100 px-4 alignC  "
+                      title="amonde">
+                      <Link href="/Amonds">AMANDES BIOLOGIQUES</Link>
+                    </p>
+                  </li>
+                  <li>
+                    <p
+                      className="f13   bold  pointer  headerBorderRight h100 px-4 alignC "
+                      title="pistache">
+                      <Link href="/pistache">PISTACHES BIOLOGIQUES</Link>
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
+
         <div className="d-flex h100">
-          <div className="bold f13 pointer nav  headerBorderRight h100 px-4 alignC ">
-            SUPPORT CLIENT
-          </div>
           <div className="bold nav  f13 pointer h100 px-4 alignC headerBorderRight">
             <svg
               width="11"
@@ -44,7 +64,7 @@ const Header = () => {
                 fill="#EECE38"
               />
             </svg>
-            NOUS CONTACTER
+            <Link href="/Contacte">CONTACT</Link>
           </div>
         </div>
       </div>

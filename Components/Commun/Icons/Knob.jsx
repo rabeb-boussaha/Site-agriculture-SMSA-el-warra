@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Knob } from "primereact/knob";
 
 export default function ColorDemo() {
-  const [value, setValue] = useState(75);
+  const [value, setValue] = useState(17);
 
   return (
     <div className="">

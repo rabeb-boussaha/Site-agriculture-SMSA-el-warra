@@ -4,6 +4,9 @@ import OneSection from "../Components/Products/OneSection";
 import Projects from "../Components/Products/Projects";
 import SectionThree from "../Components/Products/SectionThree";
 import TwoSection from "../Components/Products/TwoSection";
+import Or from "../Components/Products/Or";
+import TunisieJob from "../Components/Home/TunisieJob";
+import Footers from "../Components/Commun/Footers";
 
 function products() {
   return (
@@ -12,7 +15,9 @@ function products() {
       <TwoSection />
       <Experience />
       <SectionThree />
-      <Projects />
+      <Or />
+      <TunisieJob />
+      <Footers />
     </div>
   );
 }

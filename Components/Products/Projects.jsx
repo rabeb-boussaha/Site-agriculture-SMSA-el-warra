@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Wheat from "../Commun/Icons/Wheat";
 import produit from "../../public/images/Products/6661.jpg";
-import allaf from "../../public/images/Products/DSC_11.jpg";
+import allaf from "../../public/images/Products/granulé.jpg";
 import amande from "../../public/images/Products/amande.jpg";
 import olive from "../../public/images/Products/olive.jpg";
 
@@ -17,7 +17,7 @@ function Projects() {
           </h2>
         </div>
         <h1 className="w100 bolder f45 text-center mt30 ">
-          We've Done Many Other Projects Let's See Gallery Insights
+          We&apos;ve Done Many Other Projects Let&apos;s See Gallery Insights
         </h1>
         <div className="w100 alignC produit d-flex gap-3 mb30 mt30">
           <div className="w20 alignC produite">

@@ -5,3 +5,22 @@
   color: #767676;
   font-size: 20px;
 }
+.women {
+  border-radius: 0px 262.58px 262.58px 262.58px;
+}
+.info-items {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 16px 60px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 16px 60px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  padding: 40px 35px 30px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.contactez {
+  padding: 5% 20% 5%;
+
+  border-color: 5px solid blanchedalmond !important;
+}

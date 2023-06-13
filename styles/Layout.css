@@ -14,11 +14,9 @@
 }
 
 .headerBorderRight:hover {
-  border-bottom: 9px solid #eece38 !important;
+  border-bottom: px solid #eece38 !important;
 }
-.headerBorderRight:active {
-  border-bottom: 9px solid #eece38 !important;
-}
+
 .headerBorderRight {
   border-right: 0.8px solid rgba(0, 0, 0, 0.1);
 }
@@ -44,13 +42,15 @@
   color: #2c2c2c;
   flex: 0 0 50px;
 }
-
+.Footer {
+  padding: 2% 2% 4%;
+}
 .sous-street {
   color: #767676;
   margin-left: 20%;
 }
 .pre-header {
-  padding: 4% 0% 5%;
+  padding: 2% 0% 3%;
 }
 .social_footer_ul {
   color: #eece38;
@@ -59,4 +59,8 @@
   width: 60%;
   height: 10%;
   border-radius: 100%;
+}
+.heros {
+  position: relative;
+  z-index: 2;
 }

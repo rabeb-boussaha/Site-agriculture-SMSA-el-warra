@@ -382,7 +382,10 @@ body::-webkit-scrollbar-thumb {
   transition: background-color 0.2s, color 0.2s, border-color 0.2s,
     box-shadow 0.2s;
 }
-
+.logo {
+  width: 70%;
+  height: 50%;
+}
 /* =============== Import CSS ====================== */
 @import url(../styles/Layout.css);
 @import url(../styles/Home/Moder.css);
@@ -401,3 +404,76 @@ body::-webkit-scrollbar-thumb {
 @import url(../styles//Products/TwoSection.css);
 @import url(../styles/Products/SectionThree.css);
 @import url(../styles/Products/Projects.css);
+@import url(../styles/Products/hule.css);
+@import url(../styles/Products/FeedBack.css);
+
+body {
+  background: rgb(248, 246, 239);
+
+  color: rgb(248, 246, 239);
+}
+
+.navigation {
+  list-style: none;
+
+  /*
+  box-shadow:  0px -2px 3px -1px rgba(0, 0, 0, 1);
+  */
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li:first-child {
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.navigation li p {
+  display: block;
+  padding: 0 20px;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+.navigation ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  border-bottom: #eece38 !important;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation ul li {
+  float: none;
+}
+
+.navigation li:hover > ul {
+  display: block;
+  background: rgb(248, 246, 239);
+  border: solid 3px #fff;
+  border-top: 0;
+
+  -webkit-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
+
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(253, 253, 253, 0.25);
+  box-shadow: 0px 3px 3px 0px rgba(255, 255, 255, 0.967);
+}
+
+.navigation li:hover > ul li:hover {
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.navigation li li a:hover {
+  background: rgb(248, 246, 239);
+}
+
+.navigation ul li:last-child p,
+.navigation ul li:last-child a:hover {
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}

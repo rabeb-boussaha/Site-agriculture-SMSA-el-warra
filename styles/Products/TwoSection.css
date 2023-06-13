@@ -1,3 +1,26 @@
 .products-section-two {
   padding: 10% 10% 10%;
 }
+.service-box {
+  width: 100% !important;
+  height: 100%;
+  padding: 10% 2% 0%;
+  background-color: #dcc13d;
+  border-radius: 7px;
+}
+.service-box.icon {
+  font-size: 60px;
+  line-height: 1;
+  color: #eece38;
+  margin-bottom: 10px;
+}
+
+.service-box .text p.title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 23px;
+}
+.or {
+  padding: 5% 2% 6% !important;
+}
