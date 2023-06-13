@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Wheat from "../Commun/Icons/Wheat";
-import skill from "../../public/images/ABout/gros-.jpg";
+import skill from "../../public/images/About/gros-.jpg";
 import { Slider } from "primereact/slider";
 
 function SectionThree() {

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Wheat from "../Commun/Icons/Wheat";
-import Holive from "../../public/images/ABout/huile-olive-naturelle-bouteille-tasse-table.jpg";
+import Holive from "../../public/images/About/huile-olive-naturelle-bouteille-tasse-table.jpg";
 
 function Or() {
   return (
