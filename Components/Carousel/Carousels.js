@@ -10,68 +10,40 @@ import slide4 from "../../public/images/Home/close-up.jpeg";
 const Carousels = () => {
   return (
     <div
-      id="carouselExampleIndicators"
+      id="carouselExampleCaptions"
       class="carousel slide"
-      data-bs-ride="true">
+      data-mdb-ride="carousel">
       <div class="carousel-indicators">
         <button
           type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
+          data-mdb-target="#carouselExampleCaptions"
+          data-mdb-slide-to="0"
           class="active"
           aria-current="true"
           aria-label="Slide 1"></button>
         <button
           type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
+          data-mdb-target="#carouselExampleCaptions"
+          data-mdb-slide-to="1"
           aria-label="Slide 2"></button>
         <button
           type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
+          data-mdb-target="#carouselExampleCaptions"
+          data-mdb-slide-to="2"
           aria-label="Slide 3"></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 4"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <Image
-            src={slide1}
+            src={slide3}
             alt="Picture of the author"
             height={700}
             quality={100}
             className="img-caroussel"
           />
-          <div class="carousel-caption">
-            <h3 className="caption">Bienvenue à notre monde du BIO ! </h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <Image
-            src={slide4}
-            alt="Picture of the author"
-            height={700}
-            quality={100}
-            className="img-caroussel"
-          />
-          <div class="carousel-caption">
-            <h3 className="caption">Découvrez notre trésor biologique </h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <Image
-            src={slide2}
-            alt="Picture of the author"
-            height={700}
-            quality={100}
-            className="img-caroussel"
-          />
-          <div class="carousel-caption">
-            <h3 className="caption">Dégustez nos amandes uniques </h3>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </div>
         </div>
         <div class="carousel-item">
@@ -82,24 +54,40 @@ const Carousels = () => {
             quality={100}
             className="img-caroussel"
           />
-          <div class="carousel-caption">
-            <h3 className="caption">Faites vous régaler par nos pistaches </h3>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <Image
+            src={slide3}
+            alt="Picture of the author"
+            height={700}
+            quality={100}
+            className="img-caroussel"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
           </div>
         </div>
       </div>
       <button
         class="carousel-control-prev"
         type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
+        data-mdb-target="#carouselExampleCaptions"
+        data-mdb-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button
         class="carousel-control-next"
         type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
+        data-mdb-target="#carouselExampleCaptions"
+        data-mdb-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>

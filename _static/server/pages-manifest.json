@@ -1,0 +1,14 @@
+{
+  "/_app": "pages/_app.js",
+  "/Amonds": "pages/Amonds.html",
+  "/Contacte": "pages/Contacte.html",
+  "/_error": "pages/_error.js",
+  "/api/hello": "pages/api/hello.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/": "pages/index.html",
+  "/pistache": "pages/pistache.html",
+  "/products": "pages/products.html",
+  "/huile": "pages/huile.html",
+  "/404": "pages/404.html"
+}
